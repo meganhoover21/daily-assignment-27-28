@@ -1,6 +1,9 @@
 ---
 title: "day-27-28"
 format: html
+
+project:
+  output-dir: docs
 ---
 
 

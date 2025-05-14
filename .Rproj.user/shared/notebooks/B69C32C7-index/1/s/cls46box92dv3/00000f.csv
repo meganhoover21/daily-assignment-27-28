@@ -1,0 +1,9 @@
+"0","ggplot(river_profile, aes(x = ID, y = dem / 100)) +  # convert to meters"
+"0","  geom_line(color = ""steelblue"", size = 1) +"
+"0","  labs(title = ""River Elevation Profile"","
+"0","       x = ""Point ID Along River"","
+"0","       y = ""Elevation (meters)"") +"
+"0","  theme_minimal(base_size = 14) +"
+"0","  theme(plot.title = element_text(hjust = 0.5))"
+"2","Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+Please use `linewidth` instead."

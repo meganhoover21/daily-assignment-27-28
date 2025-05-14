@@ -1,0 +1,3 @@
+"0","url <- '/vsicurl/https://raw.githubusercontent.com/mikejohnson51/csu-ess-330/main/resources/foco-elev-cm.tif'"
+"0",""
+"0","r <- terra::rast(url)"
