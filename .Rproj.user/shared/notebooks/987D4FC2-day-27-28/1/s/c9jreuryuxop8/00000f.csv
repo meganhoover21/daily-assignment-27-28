@@ -1,0 +1,3 @@
+"0","# Get a numeric bounding box (what opq needs)"
+"0","bbox <- getbb(""Fort Collins, Colorado"")"
+"0",""

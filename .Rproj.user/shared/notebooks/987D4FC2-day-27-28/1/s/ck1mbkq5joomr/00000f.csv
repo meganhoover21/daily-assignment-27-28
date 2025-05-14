@@ -1,0 +1,3 @@
+"0","# Extract elevation from DEM at river points"
+"0","elev_vals <- terra::extract(r, vect(poudre_pts))"
+"2","Warning: [extract] transforming vector data to the CRS of the raster"

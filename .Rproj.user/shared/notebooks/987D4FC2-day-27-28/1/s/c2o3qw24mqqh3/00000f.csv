@@ -1,0 +1,3 @@
+"0","# Cast to LINESTRING (if needed), then to POINT"
+"0","poudre_pts <- st_cast(poudre_river_union, ""LINESTRING"") %>%"
+"0","  st_cast(""POINT"")"

@@ -1,0 +1,8 @@
+"0","# Sinuosity = (Total river length) / (Straight-line distance from start to end)"
+"0","# Get start and end points"
+"0","start_pt <- st_geometry(river_profile)[1]"
+"0","end_pt <- st_geometry(river_profile)[nrow(river_profile)]"
+"0",""
+"0","# Compute straight-line distance"
+"0","straight_dist <- st_distance(start_pt, end_pt)"
+"0",""
